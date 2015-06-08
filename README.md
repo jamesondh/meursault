@@ -13,5 +13,5 @@ Installation
 Configuration
 ----------------
 Optionally, you can edit `meursault.conf` to modify the typical installation
-and change some of the software that is installed. View the comments in the file
-for more information.
+and change some of the software that is installed. View the comments in that
+file for more information.
