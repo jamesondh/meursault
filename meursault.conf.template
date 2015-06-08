@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# This file provides a template for a typical Meursault installation. Fork
+# this respository and rename this file to meursault.conf to enable the
+# configuration file feature.
+
+# Desktop manager (options: i3)
+dm=i3
+
+# Web browser (options: firefox, chrome)
+browser=firefox
