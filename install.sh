@@ -32,3 +32,7 @@ case $browser in
     *)
         echo "Error: browser variable unset or incorrect. Skipping."
 esac
+
+# Other packages
+echo "Installing remaining packages..."
+sudo apt-get install ${packages[@]}
