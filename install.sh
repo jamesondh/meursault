@@ -9,6 +9,9 @@ case $dm in
         echo "Installing i3..."
         sudo apt-get install i3
 
+        # xinit
+        echo "exec i3" > ~/.xinitrc
+
         # Font
         mkdir ~/.fonts
         git clone https://github.com
