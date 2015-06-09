@@ -8,6 +8,13 @@ case $dm in
     i3)
         echo "Installing i3..."
         sudo apt-get install i3
+
+        # Font
+        mkdir ~/.fonts
+        git clone https://github.com
+        mv ~/.fonts/tewi-font/tewi* ~/.fonts
+        fc-cache
+
         # Configuration files for i3
         ;;
     *)
